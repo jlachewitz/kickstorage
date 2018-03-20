@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6CFDCA92060F40E006E3A3B /* Sneaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CFDCA42060F40D006E3A3B /* Sneaker.m */; };
+		C6CFDCAA2060F40E006E3A3B /* View in Resources */ = {isa = PBXBuildFile; fileRef = C6CFDCA62060F40E006E3A3B /* View */; };
+		C6CFDCAB2060F40E006E3A3B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CFDCA82060F40E006E3A3B /* Utils.m */; };
+		C6CFDCB12060F469006E3A3B /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6CFDCAC2060F43F006E3A3B /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6CFDCB32060F469006E3A3B /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6CFDCAD2060F43F006E3A3B /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6CFDCB52060F484006E3A3B /* Realm.framework in Resources */ = {isa = PBXBuildFile; fileRef = C6CFDCAC2060F43F006E3A3B /* Realm.framework */; };
+		C6CFDCB62060F489006E3A3B /* RealmSwift.framework in Resources */ = {isa = PBXBuildFile; fileRef = C6CFDCAD2060F43F006E3A3B /* RealmSwift.framework */; };
+		C6CFDCBB2060F519006E3A3B /* SneakerCollectionViewController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CFDCB72060F519006E3A3B /* SneakerCollectionViewController.h.m */; };
+		C6CFDCBC2060F519006E3A3B /* SneakerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CFDCB92060F519006E3A3B /* SneakerCell.m */; };
 		C6E5F64F2060F3A600934EF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E5F64E2060F3A600934EF6 /* AppDelegate.m */; };
 		C6E5F6522060F3A600934EF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E5F6512060F3A600934EF6 /* ViewController.m */; };
 		C6E5F6552060F3A600934EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E5F6532060F3A600934EF6 /* Main.storyboard */; };
@@ -15,7 +24,33 @@
 		C6E5F65D2060F3A600934EF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E5F65C2060F3A600934EF6 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C6CFDCB42060F469006E3A3B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C6CFDCB32060F469006E3A3B /* RealmSwift.framework in Embed Frameworks */,
+				C6CFDCB12060F469006E3A3B /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C6CFDCA42060F40D006E3A3B /* Sneaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sneaker.m; sourceTree = "<group>"; };
+		C6CFDCA52060F40E006E3A3B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C6CFDCA62060F40E006E3A3B /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		C6CFDCA72060F40E006E3A3B /* Sneaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sneaker.h; sourceTree = "<group>"; };
+		C6CFDCA82060F40E006E3A3B /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		C6CFDCAC2060F43F006E3A3B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Frameworks/Realm.framework; sourceTree = SOURCE_ROOT; };
+		C6CFDCAD2060F43F006E3A3B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Frameworks/RealmSwift.framework; sourceTree = SOURCE_ROOT; };
+		C6CFDCB72060F519006E3A3B /* SneakerCollectionViewController.h.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SneakerCollectionViewController.h.m; sourceTree = "<group>"; };
+		C6CFDCB82060F519006E3A3B /* SneakerCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SneakerCollectionViewController.h; sourceTree = "<group>"; };
+		C6CFDCB92060F519006E3A3B /* SneakerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SneakerCell.m; sourceTree = "<group>"; };
+		C6CFDCBA2060F519006E3A3B /* SneakerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SneakerCell.h; sourceTree = "<group>"; };
 		C6E5F64A2060F3A500934EF6 /* KickStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E5F64D2060F3A500934EF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6E5F64E2060F3A600934EF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +93,17 @@
 		C6E5F64C2060F3A500934EF6 /* KickStorage */ = {
 			isa = PBXGroup;
 			children = (
+				C6CFDCAC2060F43F006E3A3B /* Realm.framework */,
+				C6CFDCAD2060F43F006E3A3B /* RealmSwift.framework */,
+				C6CFDCA72060F40E006E3A3B /* Sneaker.h */,
+				C6CFDCA42060F40D006E3A3B /* Sneaker.m */,
+				C6CFDCA52060F40E006E3A3B /* Utils.h */,
+				C6CFDCA82060F40E006E3A3B /* Utils.m */,
+				C6CFDCBA2060F519006E3A3B /* SneakerCell.h */,
+				C6CFDCB92060F519006E3A3B /* SneakerCell.m */,
+				C6CFDCB82060F519006E3A3B /* SneakerCollectionViewController.h */,
+				C6CFDCB72060F519006E3A3B /* SneakerCollectionViewController.h.m */,
+				C6CFDCA62060F40E006E3A3B /* View */,
 				C6E5F64D2060F3A500934EF6 /* AppDelegate.h */,
 				C6E5F64E2060F3A600934EF6 /* AppDelegate.m */,
 				C6E5F6502060F3A600934EF6 /* ViewController.h */,
@@ -81,6 +127,7 @@
 				C6E5F6462060F3A500934EF6 /* Sources */,
 				C6E5F6472060F3A500934EF6 /* Frameworks */,
 				C6E5F6482060F3A500934EF6 /* Resources */,
+				C6CFDCB42060F469006E3A3B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,9 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6CFDCB62060F489006E3A3B /* RealmSwift.framework in Resources */,
+				C6CFDCB52060F484006E3A3B /* Realm.framework in Resources */,
 				C6E5F65A2060F3A600934EF6 /* LaunchScreen.storyboard in Resources */,
 				C6E5F6572060F3A600934EF6 /* Assets.xcassets in Resources */,
 				C6E5F6552060F3A600934EF6 /* Main.storyboard in Resources */,
+				C6CFDCAA2060F40E006E3A3B /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6CFDCBC2060F519006E3A3B /* SneakerCell.m in Sources */,
 				C6E5F6522060F3A600934EF6 /* ViewController.m in Sources */,
+				C6CFDCA92060F40E006E3A3B /* Sneaker.m in Sources */,
+				C6CFDCBB2060F519006E3A3B /* SneakerCollectionViewController.h.m in Sources */,
 				C6E5F65D2060F3A600934EF6 /* main.m in Sources */,
+				C6CFDCAB2060F40E006E3A3B /* Utils.m in Sources */,
 				C6E5F64F2060F3A600934EF6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +333,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = KickStorage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = doodlebug.KickStorage;
@@ -292,6 +350,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = KickStorage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = doodlebug.KickStorage;
