@@ -14,7 +14,8 @@
 
 // https://stackoverflow.com/questions/1560081/how-can-i-create-a-uicolor-from-a-hex-string
 // Assumes input like "#00FF00" (#RRGGBB).
-+ (UIColor *)colorFromHexString:(NSString *)hexString {
++ (UIColor *)colorFromHexString:(NSString *)hexString
+{
     unsigned rgbValue = 0;
     NSScanner *scanner = [NSScanner scannerWithString:hexString];
     [scanner setScanLocation:1]; // bypass '#' character
@@ -23,22 +24,26 @@
 }
 
 // https://stackoverflow.com/questions/14051807/how-can-i-get-a-hex-string-from-uicolor-or-from-rgb/40018698
-+(NSString*)hexStringFromColor:(UIColor*)color
++ (NSString *)hexStringFromColor:(UIColor *)color
 {
     const CGFloat *components = CGColorGetComponents(color.CGColor);
     size_t count = CGColorGetNumberOfComponents(color.CGColor);
     
-    if(count == 2){
+    if (count == 2)
+    {
         return [NSString stringWithFormat:@"#%02lX%02lX%02lX",
                 lroundf(components[0] * 255.0),
                 lroundf(components[0] * 255.0),
                 lroundf(components[0] * 255.0)];
-    }else{
+    }
+    else
+    {
         return [NSString stringWithFormat:@"#%02lX%02lX%02lX",
                 lroundf(components[0] * 255.0),
                 lroundf(components[1] * 255.0),
                 lroundf(components[2] * 255.0)];
     }
 }
+
 @end
 

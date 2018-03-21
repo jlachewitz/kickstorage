@@ -11,10 +11,11 @@
 #import <Realm/Realm.h>
 
 @interface Sneaker : RLMObject
+@property (strong, nonatomic) NSString *colorway;
+@property (strong, nonatomic) NSString *shoeLine;
+@property (strong, nonatomic) NSString *releaseDate;
+@property (strong, nonatomic) NSString *primaryColor;
 
-@property (strong, nonatomic)  NSString *colorway;
-@property (strong, nonatomic)  NSString *shoeLine;
-@property (strong, nonatomic)  NSString *releaseDate;
-@property (strong, nonatomic)  NSString *primaryColor;
+- (instancetype)initWithShoeLine:(NSString *)shoeLine andColorway:(NSString *)colorway andReleaseDate:(NSString *)releaseDate andPrimaryColor:(UIColor *)primaryColor;
 
 @end

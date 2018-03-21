@@ -20,39 +20,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="H99-XO-x8l">
-                            <size key="itemSize" width="160" height="100"/>
+                            <size key="itemSize" width="200" height="100"/>
                             <size key="headerReferenceSize" width="50" height="50"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SneakerCell" id="37j-gG-FZb" customClass="SneakerCell">
-                                <rect key="frame" x="10" y="60" width="160" height="100"/>
+                                <rect key="frame" x="10" y="60" width="200" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="160" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3sn-mP-dfA">
-                                            <rect key="frame" x="0.0" y="0.0" width="160" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hbQ-jG-CsO">
-                                                    <rect key="frame" x="0.0" y="10" width="160" height="61"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hbQ-jG-CsO">
+                                                    <rect key="frame" x="0.0" y="10" width="200" height="58.5"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Summit Lake Hornets&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrO-1E-Dlu">
-                                                            <rect key="frame" x="0.0" y="0.0" width="160" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Summit Lake Hornets&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="HrO-1E-Dlu">
+                                                            <rect key="frame" x="0.0" y="0.0" width="200" height="17"/>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lebron 9" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp5-rx-CVf">
-                                                            <rect key="frame" x="0.0" y="22" width="160" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Lebron 9" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="lp5-rx-CVf">
+                                                            <rect key="frame" x="0.0" y="22" width="200" height="17"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLV-XY-KyB">
-                                                            <rect key="frame" x="0.0" y="44" width="160" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="YLV-XY-KyB">
+                                                            <rect key="frame" x="0.0" y="44" width="200" height="14.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -63,7 +63,7 @@
                                                     <rect key="frame" x="138" y="75" width="22" height="20"/>
                                                 </button>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DvM-Ch-YpI">
-                                                    <rect key="frame" x="80" y="75" width="20" height="20"/>
+                                                    <rect key="frame" x="100" y="75" width="20" height="20"/>
                                                     <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="20" id="6aA-Jc-2l2"/>
@@ -77,6 +77,7 @@
                                                 <constraint firstItem="DvM-Ch-YpI" firstAttribute="centerX" secondItem="3sn-mP-dfA" secondAttribute="centerX" id="Fo9-4L-tmR"/>
                                                 <constraint firstItem="8jJ-aD-8Uj" firstAttribute="trailing" secondItem="3sn-mP-dfA" secondAttribute="trailing" constant="-5" id="HFo-Je-7gJ"/>
                                                 <constraint firstItem="8jJ-aD-8Uj" firstAttribute="height" secondItem="3sn-mP-dfA" secondAttribute="height" multiplier="1/5" id="HRk-e6-KdY"/>
+                                                <constraint firstItem="DvM-Ch-YpI" firstAttribute="top" secondItem="hbQ-jG-CsO" secondAttribute="bottom" constant="6.5" id="IeI-HU-eYg"/>
                                                 <constraint firstItem="8jJ-aD-8Uj" firstAttribute="top" secondItem="hbQ-jG-CsO" secondAttribute="bottom" constant="10" id="JVn-gZ-mH4"/>
                                                 <constraint firstAttribute="bottom" secondItem="DvM-Ch-YpI" secondAttribute="bottom" constant="5" id="Lv1-z4-hhz"/>
                                                 <constraint firstItem="hbQ-jG-CsO" firstAttribute="top" secondItem="3sn-mP-dfA" secondAttribute="top" constant="10" id="Ub3-FM-AIM"/>
@@ -106,9 +107,24 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="Header" id="jPS-av-xWk">
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="SneakerSectionHeader" id="jPS-av-xWk" customClass="SneakerSectionHeader">
                             <rect key="frame" x="0.0" y="0.0" width="1024" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBN-ge-wl8">
+                                    <rect key="frame" x="491" y="15" width="42" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="nBN-ge-wl8" firstAttribute="centerX" secondItem="jPS-av-xWk" secondAttribute="centerX" id="Hm0-qb-Jr0"/>
+                                <constraint firstItem="nBN-ge-wl8" firstAttribute="centerY" secondItem="jPS-av-xWk" secondAttribute="centerY" id="jpM-E1-3pB"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="sortingCriteriaLabel" destination="nBN-ge-wl8" id="Cuf-yt-1CX"/>
+                            </connections>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="vut-Oc-HMG" id="0Yt-MS-L1t"/>

@@ -10,7 +10,4 @@
 
 @interface SneakerCollectionViewController : UICollectionViewController
 
-
-
 @end
-

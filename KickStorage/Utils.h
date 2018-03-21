@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @interface Utils : NSObject
+
 + (UIColor *)colorFromHexString:(NSString *)hexString;
-+(NSString*)hexStringFromColor:(UIColor*)color;
++ (NSString *)hexStringFromColor:(UIColor *)color;
+
 @end
